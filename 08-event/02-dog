@@ -1,0 +1,22 @@
+#!usr/bin/node
+const EventEmiter = require('events').EventEmiter;
+
+function Dog(name,enenrgy){
+var _name = name;
+
+var _energy = ennergy;
+
+EventEmiter.call(this);
+
+global.serInterval(()=>{
+if(_ennergy>0){
+emit('bark');
+enenrgy--;
+    },500)
+
+this.name = ()=>name;
+this.ennergy=()=>enenrgy;
+}
+}
+Dog.prototype = EventEmiter.prototype;
+module.exports = Dog;

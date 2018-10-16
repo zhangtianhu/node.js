@@ -1,0 +1,9 @@
+#!/usr/bin/node
+const Dog = require('./02-dog');
+var taidi = new Dog('taidi',10);
+
+taidi.on('bark',onbark);
+
+function onbark(){
+console.log('%s is barked! ennergy:%d',this.name(),this.energy())
+}
